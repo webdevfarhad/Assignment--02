@@ -65,4 +65,11 @@
 .container2{
     width: 1170px;
     margin: 50px auto;
+    display: flex;
+}
+.c2-title{
+    font-size: 2.8rem;
+}
+.c2-img-sec{
+    margin-left: 25px;
 }
