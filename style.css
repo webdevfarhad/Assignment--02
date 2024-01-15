@@ -31,4 +31,38 @@
 .nav-menu a{
     text-decoration: none;
 }
-
+.main{
+    width: 1200px;
+    margin: 40px auto;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    width: 1170px;
+    height: 500px;
+    background-image: linear-gradient(180deg, #252525 0%, rgba(7, 2, 17, 0.00) 100%), url(./Images/Group\ 13.png);
+    margin: 0px auto;
+    align-items: center;
+}
+.c1-text-sec{
+    width: 600px;
+    margin: 0px auto;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+.c1-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.c1-desc{
+    color: white;
+    padding-bottom: 20px;
+}
+.container2{
+    width: 1170px;
+    margin: 50px auto;
+}
