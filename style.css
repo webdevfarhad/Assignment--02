@@ -240,3 +240,39 @@ height: 389px;
     height: 52px;
     font-size: 1.25rem;
 }
+.container6{
+    margin: 100px auto;
+    height: 424px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.c6-text-sec{
+    width: 520px;
+}
+.c6-title{
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 70px;
+    /* margin-bottom: 10px; */
+}
+.c6-desc{
+    margin: 10px 0px;
+    line-height: 30px;
+    color:  #5A5A5D;
+}
+.c6-desc-points{
+    width: 450px;
+    margin-left: 18px;
+}
+.desc-points{
+    line-height: 30px;
+}
+.c6-btn{
+    width: 174px;
+    height: 52px;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 30px;
+}
