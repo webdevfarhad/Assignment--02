@@ -276,12 +276,16 @@ height: 389px;
     padding-top: 12px;
     margin-top: 30px;
 }
+
+/* Section 7 Starts here! */
+
 .container7{
     margin: 100px auto;
     height: 442px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .c7-form-sec{
     width: 450px;
@@ -315,5 +319,34 @@ height: 389px;
     font-size: 1.25rem;
     font-weight: 900;
     border-radius: 8px;
-
+}
+.c7-image img{
+    width: 722px;
+    height: 438px;
+}
+.c7-discount{
+    margin: 20px auto;
+    width: 324px;
+    height: 120px;
+    background-color:#ff5400;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    transform: rotate(-20deg);
+    position: absolute;
+    bottom: 40px;
+    right: 7px;
+}
+.footer{
+    width: 100%;
+    height: 520px;
+    background: #f3f3f3;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.travel-title{
+    color: #ff5400;
 }
