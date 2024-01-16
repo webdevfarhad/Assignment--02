@@ -117,6 +117,7 @@
 .card1{
     width: 573px;
     height: 284px;
+    padding: 30px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -124,18 +125,21 @@
 .card2{
     width: 573px;
     height: 284px;
+    padding: 30px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
+    background: #f4fdff
 }
 .card3{
     width: 573px;
     height: 284px;
+    padding: 30px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
+    background: #fef6f6;
 }
 .container4{
+    margin: 50px auto;
     align-items: center;
     justify-content: center;
 }
@@ -147,4 +151,13 @@
 }
 .card3{
     margin: 0px auto;
+}
+.container4 h3{
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.card1-desc, .card2-desc, .card3-desc, .c4-desc{
+    line-height: 30px;
+    color:  #5A5A5D;
 }
