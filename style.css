@@ -276,3 +276,44 @@ height: 389px;
     padding-top: 12px;
     margin-top: 30px;
 }
+.container7{
+    margin: 100px auto;
+    height: 442px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c7-form-sec{
+    width: 450px;
+    padding: 40px;
+    border: 1px solid #ff5400;
+    border-radius: 10px;
+}
+.c7-form-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.c7-form-desc{
+    color: #5A5A5D;
+    line-height: 30px;
+    margin: 10px auto;
+}
+.c7-inp-text, .c7-inp-email{
+    width: 365px;
+    height: 52px;
+    margin: 10px 0px;
+    padding: 20px;
+    border-style: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.c7-form-btn{
+    width: 365px;
+    height: 52px;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 900;
+    border-radius: 8px;
+
+}
