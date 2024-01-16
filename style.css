@@ -49,7 +49,7 @@
     width: 1170px;
     height: 500px;
     background-image: linear-gradient(180deg, #252525 0%, rgba(7, 2, 17, 0.00) 100%), url(./Images/Group\ 13.png);
-    margin: 0px auto;
+    margin: 50px auto;
     align-items: center;
 }
 .c1-text-sec{
@@ -83,7 +83,7 @@
 }
 .container3{
     width: 1170px;
-    margin: 0px auto;
+    margin: 50px auto;
     align-items: center;
 }
 .c3-title{
@@ -99,4 +99,25 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.container4{
+    width: 1170px;
+    margin: 50px auto;
+    align-items: center;
+}
+.c4-text-sec{
+    width: 800px;
+    margin: 15px auto;
+    text-align: center;
+}
+.c4-title{
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+.card1{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
