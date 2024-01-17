@@ -462,6 +462,19 @@
     bottom: 40px;
     right: 7px;
 }
+.discount-sub-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+.discount-title{
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* Footer starts Here! */
+
 .footer{
     width: 100%;
     height: 520px;
