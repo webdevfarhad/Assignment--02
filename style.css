@@ -482,7 +482,7 @@
     background: #f3f3f3;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .footer-text-sec{
     width: 770px;
@@ -841,7 +841,7 @@
     .container6{
         margin: 10px 20px;
         width: 335px;
-        height: 600px;
+        height: 650px;
         display: flex;
         flex-direction: column;
         /* align-items: center; */
@@ -896,7 +896,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .footer-text-sec{
         width: 350px;
