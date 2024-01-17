@@ -66,7 +66,7 @@
     margin: 100px auto;
     align-items: center;
     border-radius: 15px;
-    box-shadow: 10px 10px 25px gray;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.555), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
 }
 .c1-text-sec{
     width: 600px;
@@ -98,6 +98,10 @@
     justify-content: space-around;
     align-items: center;
 } 
+/* .select-font{
+    color: #5A5A5D;
+} */
+    
 .text-input{
     width: 174px;
     height: 52px;
@@ -375,19 +379,19 @@
     font-size: 2.8rem;
     font-weight: 800;
     line-height: 70px;
-    /* margin-bottom: 10px; */
+    margin-top: -34px;
 }
 .c6-desc{
-    margin: 10px 0px;
-    line-height: 30px;
+    margin: 15px 0px;
+    line-height: 25px;
     color:  #5A5A5D;
 }
 .c6-desc-points{
     width: 450px;
-    margin-left: 18px;
+    margin-left: 22px;
 }
 .desc-points{
-    line-height: 30px;
+    line-height: 25px;
 }
 .c6-btn{
     width: 174px;
@@ -395,7 +399,7 @@
     font-size: 1.25rem;
     text-align: center;
     padding-top: 12px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /* Section 7 Starts here! */
@@ -461,13 +465,45 @@
 .footer{
     width: 100%;
     height: 520px;
+    padding: 100px;
     background: #f3f3f3;
     align-items: center;
+    justify-content: center;
+    border: 1px solid red;
 }
-.footer-logo{
+.footer-text-sec{
+    width: 770px;
+    margin: 50px auto;
+    /* align-items: center; */
+}
+.footer-title-logo{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.footer-title{
+    font-size: 2rem;
 }
 .travel-title{
     color: #ff5400;
+}
+.footer-desc{
+    color: #5A5A5D;
+    line-height: 30px;
+    text-align: center;
+}
+.footer-logo-sec{
+    width: 250px;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-sec{
+    margin-top: 70px;
+}
+.copyright-txt{
+    margin-top: 30px;
+    text-align: center;
 }
