@@ -150,6 +150,9 @@
     height: 52px;
     font-size: 1.25rem;
 }
+
+/* Container 3 Works Starts here! */
+
 .container3{
     width: 1170px;
     margin: 100px auto;
@@ -167,11 +170,21 @@
 .c3-desc{
     line-height: 30px;
     color:  #5A5A5D;
+    margin-bottom: 30px;
 }
 .c3-img-sec{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+}
+.img-row{
+    display: flex;
+    gap: 0px;
+    justify-content: space-between;
+}
+.c3-img-sec img:hover{
+    transform: scale(1.1);
+
 }
 .container4{
     width: 1170px;
