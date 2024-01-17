@@ -184,7 +184,7 @@
     justify-content: space-between;
 }
 .c3-img-sec img{
-    transition: ease-in-out .3s;
+    transition: ease-in-out .4s 0.3s;
 }
 .c3-img-sec img:hover{
     transform: scale(1.1);
