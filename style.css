@@ -625,6 +625,100 @@
         margin-top: 10px;
 }
     /* Container 3 starts here! */
+
+    .container3{
+        width: 335px;
+        margin: 10px 10px;
+        align-items: center;
+    }
+    .c3-title{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .c3-text-sec{
+        width: 309px;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .c3-desc{
+        line-height: 20px;
+        color:  #5A5A5D;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .c3-img-sec{
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        gap: 10px;
+        margin: 10px 10px;
+    }
+    .img-row{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+    } 
+
+    /* Container 4 starts here */
+    .container4{
+        width: 1170px;
+        margin: 100px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .c4-text-sec{
+        width: 800px;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .c4-title{
+        font-size: 2.8rem;
+        margin-bottom: 15px;
+    }
+    .c4-desc{
+        margin-bottom: 45px;
+    }
+    .card1{
+        width: 573px;
+        height: 284px;
+        padding: 30px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+    .card2{
+        width: 573px;
+        height: 284px;
+        padding: 30px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: #f4fdff
+    }
+    .card3{
+        width: 573px;
+        height: 284px;
+        margin: 0px auto;
+        padding: 30px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: #fef6f6;
+    }
+    .c4-card-sec1{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+    .container4 h3{
+        margin: 20px 0px;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .card1-desc, .card2-desc, .card3-desc, .c4-desc{
+        line-height: 30px;
+        color:  #5A5A5D;
+    }
     
 
 
