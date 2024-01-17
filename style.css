@@ -287,12 +287,7 @@
     border-radius: 15px;
     justify-content: center;
 }
-.book-now{
-    width: 579px;
-    height: 389px;
-    background-color: rgb(255,255,255,.8);
-    border-radius: 10px;
-}
+
 .c5-banner2{
     margin: 0px auto;
     width: 1150px;
@@ -300,12 +295,6 @@
     background: url(./Images/Group\ 40.png);
     border-radius: 15px;
 }
-/* .book-now2{
-    width: 579px;
-    height: 389px;
-    background-color: rgb(255,255,255,.8);
-    border-radius: 10px;
-} */
 .c5-banner3{
     margin: 0px auto;
     width: 1150px;
@@ -313,18 +302,47 @@
     background: url(./Images/Group\ 39.png);
     border-radius: 15px;
 }
-/* .book-now3{
+.book-now{
     width: 579px;
     height: 389px;
+    margin-top: 56px;
+    padding: 40px;
     background-color: rgb(255,255,255,.8);
     border-radius: 10px;
-} */
-/* .c5-btn{
+}
+.c5-banner2>.book-now{
+    margin-left: 50px;
+}
+.c5-banner1> .book-now, .c5-banner3>.book-now{
+    margin-left: 520px;
+}
+.book-now-title{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.book-now-desc{
+    margin: 20px 0px;
+    line-height: 30px;
+    color: #5A5A5D;
+}
+.pricing{
+    color: #ff5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.book-btn{
+    width: 150px;
+    height: 52px;
+    font-size: 1.25rem;
+}
+
+.c5-btn{
     margin: 40px auto;
     width: 210px;
     height: 52px;
     font-size: 1.25rem;
-} */
+}
 .c5-banner-logo-sec{
     display: flex;
     gap: 20px;
