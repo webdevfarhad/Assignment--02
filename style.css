@@ -182,6 +182,9 @@
     gap: 0px;
     justify-content: space-between;
 }
+.c3-img-sec img{
+    transition: ease-in-out .3s;
+}
 .c3-img-sec img:hover{
     transform: scale(1.1);
 
