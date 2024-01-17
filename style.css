@@ -26,7 +26,11 @@
 .nav-logo{
     display: flex;
     align-items: center;
-    
+}
+.logo-title{
+    margin-left: 15px;
+    font-size: 2.25rem;
+    font-weight: 800;
 }
 .nav-menu > ul{
     display: flex;
@@ -37,6 +41,7 @@
 }
 .nav-menu a{
     text-decoration: none;
+    font-size: 20px;
 }
 .main{
     width: 1200px;
