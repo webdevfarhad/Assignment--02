@@ -17,6 +17,8 @@
     font-weight: 900;
 
 }
+
+/* Nav works starts here! */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,11 @@
     text-decoration: none;
     font-size: 20px;
 }
+.nav-menu-text{
+    color: black;
+}
+
+/* Main Section Work Starts Here! */
 .main{
     width: 1200px;
     margin: 40px auto;
@@ -50,10 +57,12 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Container-1 Works Starts here! */
 .container1{
     width: 1170px;
     height: 500px;
-    background-image: linear-gradient(180deg, #252525 0%, rgba(7, 2, 17, 0.00) 100%), url(./Images/Group\ 13.png);
+    background-image: linear-gradient(180deg, #292929 0%, rgba(170, 169, 169, 0) 70%), url(./Images/Group\ 13.png);
     margin: 100px auto;
     align-items: center;
     border-radius: 15px;
@@ -74,7 +83,41 @@
 .c1-desc{
     color: white;
     padding-bottom: 20px;
+    line-height: 30px;
 }
+.c1-input-sec{
+    width: 800px;
+    height: 84px;
+    margin: 40px auto;
+    border-radius: 8px;
+    /* background-color: white ; */
+    background: rgb(255,255,255,.5);
+    /* opacity: .5; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.text-input{
+    width: 174px;
+    height: 52px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.banner1-btn{
+    width: 174px;
+    height: 52px;
+    position: relative;
+}
+.banner1-btn > .search-icon{
+    position: absolute;
+    top: 14px;
+    left: 25px;
+}
+
+
+
 .container2{
     width: 1170px;
     margin: 100px auto;
